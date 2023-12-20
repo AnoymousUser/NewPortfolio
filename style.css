@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+body {
+    background-color: black;
+    height: 300vh;
+    font-size: 1.5rem;
+    font-family: 'Gabarito', sans-serif;
+    color: aliceblue;
+}
+
+header {
+    top: 0px;
+    left: 0px;
+    z-index: 6;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.975);
+    width: 100vw;
+    height: 10vh;
+    border-bottom: 0.2rem solid whitesmoke;
+}
+
+.Logo {
+    font-size: 3.5rem;
+    color: rgb(255, 172, 17);
+    text-decoration: none;
+    top: 0;
+    left: 0;
+    margin-top: 0.8vw;
+    margin-left: 0.6vw;
+}
+
+.GradBlur {
+    top: 2px;
+    left: 5.5px;
+    filter: blur(1.5rem);
+    z-index: 5;
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 172, 17, 0.288);
+    width: 5vw;
+    height: 5vw;
+}
+
+#TitleName {
+    transition: 400ms ease;
+    background-color: #000000;
+    font-size: 8rem;
+    margin-top: 3.2vh;
+    margin-left: 4vw;
+    position: absolute;
+    color: aliceblue;
+    z-index: 4;
+    top: 15vh;
+}
+
+#TitleName:hover {
+    transition: 400ms ease;
+    background-color: #ffa600;
+}
+
+#Intro {
+    position: absolute;
+    top: 32vh;
+    left: 5vw;
+    font-size: 2rem;
+}
+
+span {
+    color: #ffbd44;
+}
+
+#GradientDot {
+    transition: 400ms ease;
+    position: absolute;
+    top: 14vh;
+    left: 37.5px;
+    z-index: 4;
+    width: 15vw;
+    height: 19vh;
+    background-image: 
+    radial-gradient(rgb(196, 132, 14) 10%, transparent 10%);
+    background-position: 10px 10px;
+    background-size: 28px 28px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#GradientDot:hover {
+    transition: 400ms ease;
+    width: 42vw;
+    left: 38.8px;
+    background-position: 20px 20px;
+}
+
+.TitleHeading {
+    position: absolute;
+    color: aliceblue;
+}
+
+#TH1 {
+    top: 55vh;
+    left: 7rem;
+}
+
+#TH2 {
+    top: 205vh;
+    left: 7rem;
+}
+
+#TitleHeadingHook1 {
+    position: absolute;
+    top: 42vh;
+}
+
+.Link {
+    position: absolute;
+    top: 3.5vh;
+    transition: 400ms ease;
+    text-decoration: underline;
+    color: #f09f09;
+}
+
+#AboutMe {
+    left: 30vw;
+}
+
+#CodingLanguages {
+    left: 40vw;
+}
+
+#TitleHeadingHook2 {
+    position: absolute;
+    top: 184vh;
+}
+
+
+#THD {
+    position: absolute;
+    top: 63vh;
+    left: 7rem;
+}
+
+.SkillCircle {
+    position: absolute;
+    background-image: linear-gradient(#25252590, #242322);
+    width: 15vw;
+    height: 15vw;
+    top: 77vh;
+    border: solid 1px;
+    border-radius: 50%;
+}
+
+#WD {
+    left: 10rem;
+}
+
+.SkillCircle:hover {
+    animation: Spin 1s;
+}
+
+@keyframes Spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.Skill {
+    transition: 400ms ease;
+    position: absolute;
+    top: 90.5vh;
+}
+
+.Skill:hover {
+    transition: 400ms ease;
+    animation: Spin 1s;
+    color: #f09f09;
+}
+
+#wd {
+    left: 13rem;
+}
+
+#BW {
+    left: 30rem;
+}
+
+#bw {
+    left: 35rem;
+}
+
+#CH {
+    left: 50rem;
+}
+
+#ch {
+    left: 57rem;
+}
+
+#NA {
+    left: 70rem;
+}
+
+#na {
+    left: 73rem;
+}
+
+#JG {
+    left: 90rem;
+}
+
+#jg {
+    left: 95rem;
+}
+
+.Background {
+    background-color: #1d1d1db9;
+    position: absolute;
+    left: 0;
+    width: 99vw;
+}
+
+#AB {
+    top: 53vh;
+    height: 80vh;
+}
+
+#SK {
+    top: 193vh;
+    height: 80vh;
+}
+
+#ABSK {
+    background-color: #0a0a0aab;
+    top: 133vh;
+    height: 60vh;
+}
+
+#ABSKall {
+    position: absolute;
+    left: 0;
+    top: 133vh;
+    background-color: #f09f09;
+    width: 2vw;
+    height: 2vw;
+    animation: Move 10s infinite linear;
+}
+
+@keyframes Move {
+    0% {
+        left: 0;
+        top: 136vh;
+    }
+
+    10% {
+        left: 20vw;
+        top: 143vh;
+    }
+
+    20% {
+        left: 0;
+        top: 153vh;
+    }
+
+    30% {
+        left: 30vw;
+        top: 189vh;
+    }
+
+    40% {
+        left: 50vw;
+        top: 163vh;
+    }
+
+    50% {
+        left: 23vw;
+        top: 153vh;
+    }
+
+    60% {
+        left: 70vw;
+        top: 143vh;
+    }
+
+    70% {
+        left: 52vw;
+        top: 163vh;
+    }
+
+    80% {
+        left: 71vw;
+        top: 173vh;
+    }
+
+    90% {
+        left: 90vw;
+        top: 189vh;
+    }
+
+    100% {
+        left: 95vw;
+        top: 136vh;
+    }
+}
+
+.Block {
+    background-color: white;
+    position: absolute;
+    width: 0.5vw;
+    height: 30vh;
+}
+
+#TOP {
+    left: 0;
+    height: 1vh;
+    width: 99vw;
+    top: 133.1vh;
+}
+
+#B1 {
+    left: 22vw;
+    top: 133.1vh;
+}
+
+#B4 {
+    left: 52vw;
+    top: 163vh;
+}
+
+#B6 {
+    left: 72vw;
+    top: 133.1vh;
+}
+
+#BOTTOM {
+    left: 0;
+    top: 192vh;
+    height: 1vh;
+    width: 99vw;
+}
+
+.TB {
+    position: absolute;
+    top: 136vh;
+}
+
+.N1 {
+    background-color: darkred;
+    width: 5vw;
+    height: 5vw;
+    animation: Spin 2s infinite linear;
+}
+
+.N2 {
+    background-color: red;
+    top: 137vh;
+    width: 4vw;
+    height: 4vw;
+    animation: Spin 1.5s infinite linear;
+}
+
+.N3 {
+    background-color: #ff3232;
+    width: 3vw;
+    height: 3vw;
+    top: 138vh;
+    animation: Spin 1s infinite linear;
+}
+
+#L1 {
+    left: 0vw;
+}
+
+#L2 {
+    left: 0.7vw;
+}
+
+#L3 {
+    left: 1.2vw;
+}
+
+#R1 {
+    left: 93.1vw;
+}
+
+#R2 {
+    left: 93.8vw;
+}
+
+#R3 {
+    left: 94.3vw;
+}
+
+#RANDBALL {
+    color: #ffbd44;
+    z-index: 5;
+    position: absolute;
+    left: 20vw;
+    top: 150vh;
+    font-size: 6rem;
+}
+
+.Square {
+    position: absolute;
+    background-color: rgba(255, 140, 0, 0.2);
+    transition: 400ms ease;
+    border-radius: 25px;
+    width: 7vw;
+    height: 7vw;
+}
+
+.Square:hover {
+    transition: 400ms ease;
+    background-color: rgba(255, 140, 0, 0.5);
+}
+
+#HTMLSquare {
+    top: 225vh;
+    left: 15vw;
+}
+
+.SQUAREsvg {
+    position: absolute;
+    top: 0.8vh;
+    left: 0.35vw;
+    width: 6.5vw;
+    height: 6.5vw;
+}
+
+#CSSSquare {
+    top: 225vh;
+    left: 30vw;
+}
