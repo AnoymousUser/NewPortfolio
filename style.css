@@ -102,7 +102,7 @@ span {
 }
 
 #TH2 {
-    top: 205vh;
+    top: 200vh;
     left: 7rem;
 }
 
@@ -395,7 +395,7 @@ span {
 }
 
 #RANDBALL {
-    color: #ffbd44;
+    color: #ffa60085;
     z-index: 5;
     position: absolute;
     left: 20vw;
@@ -410,6 +410,7 @@ span {
     border-radius: 25px;
     width: 7vw;
     height: 7vw;
+    z-index: 4;
 }
 
 .Square:hover {
@@ -417,9 +418,29 @@ span {
     background-color: rgba(255, 140, 0, 0.5);
 }
 
+.CodeBox {
+    position: absolute;
+    width: 30vw;
+    height: 50vh;
+    background-color: #31200030;
+    z-index: 1;
+    border-radius: 10%;
+    top: 215vh;
+}
+
+.BoxTitle {
+    position: absolute;
+    color: #f3b137;
+    left: 8.5vw;
+}
+
+#WebDevelopment {
+    left: 2vw;
+}
+
 #HTMLSquare {
-    top: 225vh;
-    left: 15vw;
+    top: 11vh;
+    left: 2.5vw;
 }
 
 .SQUAREsvg {
@@ -431,6 +452,14 @@ span {
 }
 
 #CSSSquare {
-    top: 225vh;
-    left: 30vw;
+    top: 11vh;
+    left: 20vw;
+}
+
+#GameDevelopment {
+    left: 34vw;
+}
+
+#OtherLanguages {
+    left: 66vw;
 }
