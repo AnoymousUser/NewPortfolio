@@ -456,10 +456,54 @@ span {
     left: 20vw;
 }
 
+#JavaSquare {
+    top: 31vh;
+    left: 2.5vw;
+}
+
 #GameDevelopment {
     left: 34vw;
 }
 
+#UnitySquare {
+    top: 11vh;
+    left: 2.5vw;
+}
+
+#UnitySquare svg {
+    left: 0vw;
+    top: 0.4vh;
+}
+
+#GodotSquare {
+    top: 11vh;
+    left: 20vw;
+}
+
+#GodotSquare svg {
+    left: 0.275vw;
+}
+
 #OtherLanguages {
     left: 66vw;
+}
+
+#PythonSquare {
+    top: 11vh;
+    left: 2.5vw;
+}
+
+#LuaSquare {
+    top: 11vh;
+    left: 20vw;
+}
+
+#CPlusSquare {
+    top: 31vh;
+    left: 2.5vw;
+}
+
+#CSharpSquare {
+    top: 31vh;
+    left: 20vw;
 }
