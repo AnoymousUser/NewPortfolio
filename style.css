@@ -2,7 +2,7 @@
 
 body {
     background-color: black;
-    height: 300vh;
+    height: 500vh;
     font-size: 1.5rem;
     font-family: 'Gabarito', sans-serif;
     color: aliceblue;
@@ -125,6 +125,10 @@ span {
 
 #CodingLanguages {
     left: 40vw;
+}
+
+#ContactMe {
+    left: 51.7vw;
 }
 
 #TitleHeadingHook2 {
@@ -506,4 +510,9 @@ span {
 #CSharpSquare {
     top: 31vh;
     left: 20vw;
+}
+
+#TitleHeadingHook3 {
+    position: absolute;
+    top: 410vh;
 }
