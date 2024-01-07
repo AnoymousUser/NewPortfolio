@@ -512,7 +512,17 @@ span {
     left: 20vw;
 }
 
+#SG {
+    top: 295vh;
+    height: 70vh;
+}
+
 #TitleHeadingHook3 {
     position: absolute;
     top: 410vh;
+}
+
+#TH3 {
+    top: 300vh;
+    left: 7rem;
 }
